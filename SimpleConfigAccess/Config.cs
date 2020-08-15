@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace EazyMoney.Config
+namespace SimpleConfigAccess.Config
 {
 
     public class Config
