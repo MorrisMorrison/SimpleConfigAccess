@@ -4,5 +4,7 @@ Simple class to access appsettings.json files like a dictionary (same as ASP.NET
 ## usage
 ```csharp
 Configuration configuration = new Configuration(pathToConfigFile);
-string connectionString = configuration["Database:ConnectionString"]; 
+
+string connectionString = (string) configuration["Database:ConnectionString"];
+IList<string> strategies = (IList<string>) configuration["TradingBot:Strategies"]; 
 ``` 
